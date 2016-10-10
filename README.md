@@ -10,6 +10,7 @@ There are different templates:
 ## How to use them
 
 ### Automatic install
+This way you can automatically spin up as many docker containers with Vapor code as you want. After answering a few questions, everything is handled automatically.
 
 ```
 git clone git@github.com:nodes-cloud/docker-vapor.git
@@ -23,12 +24,13 @@ Place your vapor code into docker-vapor/code/<NAME>
 
 Run
 ```
-ruby ncdocker.rb
+./ncdocker.rb
 ```
 
 This will ask questions, what template, what code, and it will automatically spin up a Docker machine, it will also automatically use the correct version of Swift from your codebase
 
 ### Manual setup
+You can also choose to do the setup manually, and by this run the docker commands yourself
 
 ```
 git clone git@github.com:nodes-cloud/docker-vapor.git
